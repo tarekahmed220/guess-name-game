@@ -1,0 +1,102 @@
+/* Reset and General Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: #4caf50;
+  margin-bottom: 20px;
+}
+
+/* Game Container */
+.game-container {
+  max-width: 400px;
+  margin: 10px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.answer-container {
+  max-width: 400px;
+  min-height: 100px;
+  margin: 10px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+#show_answer {
+  max-width: 400px;
+  min-height: 100px;
+  margin: 10px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  display: none;
+}
+#show_answer h3 {
+  font-weight: normal;
+  margin-top: 10px;
+}
+.counter {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #ff5722;
+  margin-bottom: 10px;
+}
+
+#my_name {
+  width: 100%;
+  padding: 10px;
+  font-size: 1em;
+  margin-top: 10px;
+  border: 2px solid #4caf50;
+  border-radius: 5px;
+}
+
+.target_name {
+  margin-top: 10px;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 1.2em;
+  font-style: italic;
+  color: #777;
+}
+#reset_btn {
+  background-color: #4caf50; /* Green background color */
+  color: #fff; /* White text color */
+  padding: 10px 20px; /* Padding around the text */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Cursor style on hover */
+  transition: background-color 0.3s; /* Smooth background color transition */
+  display: inline-block; /* Make it an inline-block element */
+}
+
+#reset_btn h2 {
+  margin: 0; /* Remove default margin */
+  font-size: 1.2em; /* Font size */
+}
+
+#reset_btn:hover {
+  background-color: #45a049; /* Darker green on hover */
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess My Name</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Guess My Name Game</h1>
+    </header>
+    <main>
+      <div class="game-container">
+        <div class="counter">Counter: <span id="counter">0</span></div>
+        <input
+          type="text"
+          id="my_name"
+          placeholder="Guess My Name"
+          autocomplete="off"
+        />
+        <h3 class="target_name"></h3>
+        <p class="result"></p>
+      </div>
+      <div class="answer-container">
+        <h2 id="the_name"></h2>
+      </div>
+      <div id="show_answer">
+        <h2>Quit ? 😅</h2>
+        <h3>it's okay click here to show the name</h3>
+      </div>
+      <div id="reset_btn">
+        <h2>Reset Game</h2>
+      </div>
+    </main>
+    <script src="./js/jquery-3.1.1.js"></script>
+    <script src="./js/guess-my-name.js"></script>
+  </body>
+</html>
